@@ -111,3 +111,34 @@ section {
   color: #04030f;
   text-decoration: none;
 }
+
+/* Mission Section */
+
+.mission_items {
+  display: flex;
+  gap: 2rem;
+}
+
+.mission_item {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 360px;
+  height: 370px;
+  padding: 0.5rem 2rem;
+  border-radius: 25px;
+}
+
+.mission_section img {
+  width: 40%;
+}
+
+.mission {
+  background: rgb(96, 26, 61, 0.2);
+}
+.vision {
+  background: rgb(4, 113, 77, 0.2);
+}
+.goals {
+  background: rgb(247, 92, 3, 0.2);
+}
