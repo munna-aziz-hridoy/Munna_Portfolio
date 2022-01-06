@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Reusable CSS */
+
+section {
+  width: 1280px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-size: 300px;
+}
+
+.container {
+  width: 968px;
+  margin: 0 auto;
+  padding: 4.5rem 0;
+}
+
+.btn {
+  font-family: "Oswald", sans-serif;
+  background: #931f1d;
+  text-decoration: none;
+  padding: 0.6rem 2.5rem;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  color: #fff;
+
+  transition: 0.5s;
+}
+
+.btn:hover {
+  background: #010400;
+}
+
+.heading_first {
+  font-size: 2.5rem;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 4rem;
+}
+
+.heading_second {
+  font-size: 1.5rem;
+  font-family: "Oswald", sans-serif;
+  text-align: left;
+}
+
+.highlight {
+  color: #931f1d;
+  font-family: "Lobster", cursive;
+}
+
+.description {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9rem;
+  margin: 0;
+  padding-bottom: 1rem;
+}
+
+/* Home Section */
+
+.home_main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home_texts {
+  width: 65%;
+}
+
+.home_heading {
+  font-family: "Oswald", sans-serif;
+  font-size: 3rem;
+}
+
+.home_heading h1 {
+  margin: 0;
+}
+
+.home_description {
+  width: 60%;
+  margin: 2rem 0;
+}
+
+.home_image {
+  width: 35%;
+}
+
+.home_image img {
+  width: 100%;
+}
+
+.scroll_text {
+  font-family: "Poppins", sans-serif;
+  display: block;
+  margin-top: 2rem;
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #04030f;
+  text-decoration: none;
+}
