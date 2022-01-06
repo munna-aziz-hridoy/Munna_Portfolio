@@ -142,3 +142,37 @@ section {
 .goals {
   background: rgb(247, 92, 3, 0.2);
 }
+
+/* About Section */
+
+.about_section {
+  background: url("images/shapes/shape-1.png");
+  background-position: 10px 200px;
+  background-repeat: no-repeat;
+  background-size: 300px;
+}
+
+.about {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.about_image {
+  width: 40%;
+}
+.about_image img {
+  width: 95%;
+}
+
+.about_text {
+  width: 50%;
+}
+
+.about_description {
+  margin: 2rem 0;
+}
+
+.about_first {
+  margin-bottom: 7rem;
+}
