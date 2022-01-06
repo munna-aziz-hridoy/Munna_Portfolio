@@ -176,3 +176,99 @@ section {
 .about_first {
   margin-bottom: 7rem;
 }
+
+/* Skills Section */
+
+.skill_section {
+  background: url("images/shapes/shape-5.png");
+  background-repeat: no-repeat;
+  background-size: 300px;
+  background-position: right top;
+}
+
+.skill_container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.skill {
+  display: flex;
+  gap: 2.5rem;
+}
+
+.skill_second {
+  align-self: center;
+  gap: 3.7rem;
+  margin-left: 5rem;
+}
+
+.skill_text {
+  width: 35%;
+}
+
+.skill_box {
+  width: 300px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2rem;
+  border-radius: 25px;
+  box-shadow: 2px 2px 16px 5px #ff00004a;
+  color: #fff;
+}
+
+.skill_box.html {
+  margin-left: 190px;
+  background: #da4167;
+  box-shadow: 2px 2px 16px 5px rgba(217, 63, 102, 0.3);
+}
+
+.skill_box.css {
+  margin-top: -60px;
+  background: #fabc2a;
+  box-shadow: 2px 2px 16px 5px rgba(250, 188, 42, 0.3);
+}
+
+.skill_box.javascript {
+  background: #06ba63;
+  box-shadow: 2px 2px 16px 5px rgba(6, 186, 99, 0.3);
+}
+
+.skill_box img {
+  width: 60px;
+  margin-left: -10px;
+}
+
+/* Footer Section */
+
+.footer_section {
+  background: #04030f;
+  height: 125px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer_heading {
+  font-family: "Oswald", sans-serif;
+  margin: 0;
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.footer_description {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.7rem;
+  font-weight: 200;
+  color: white;
+  text-align: center;
+}
+
+.footer_description span {
+  font-weight: 500;
+}
